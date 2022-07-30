@@ -2,6 +2,12 @@
 
 Some desc will be here soon
 
+# Run Storybook
+
+To see the list of the app components, run Storybook with command
+
+`npm run storybook`
+
 # Run Favnotes App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

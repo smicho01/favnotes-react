@@ -4,6 +4,8 @@ import GlobalStyle from 'theme/GlobalStyle';
 import Button from 'components/atoms/Button/Button';
 import { theme } from 'theme/mainTheme';
 import Paragraph from 'components/atoms/Paragraph/Paragraph';
+import Heading from 'components/atoms/Heading/Heading';
+import Input from 'components/atoms/Input/Input';
 
 const Root = () => {
   return (
@@ -14,6 +16,7 @@ const Root = () => {
           <h1>Hello Maknaka</h1>
           <Button>Close / Save</Button>
           <Button secondary>Remove</Button>
+          <Heading>Welcome to the FavNotes App</Heading>
           <Paragraph>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat excepturi
             aspernatur nesciunt ea? A exercitationem, facere molestias porro incidunt pariatur
@@ -26,6 +29,8 @@ const Root = () => {
             Illo possimus necessitatibus eaque hic culpa soluta dolore cumque consequatur voluptates
             nostrum?
           </Paragraph>
+          <Input placeholder="login" />
+          <Input placeholder="search" search />
         </>
       </ThemeProvider>
     </div>
