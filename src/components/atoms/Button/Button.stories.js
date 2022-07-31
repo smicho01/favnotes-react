@@ -9,9 +9,9 @@ storiesOf('Button', module)
   .add('Primary', () => {
     const label = 'Colors';
     const options = {
-      Primary: 'hsl(49, 100%, 58%)',
-      Secondary: 'hsl(196, 83%, 75%)',
-      Tertiary: 'hsl(106, 47%, 64%)',
+      Note: 'hsl(49, 100%, 58%)',
+      Twitter: 'hsl(196, 83%, 75%)',
+      Article: 'hsl(106, 47%, 64%)',
       Pink: 'pink',
     };
     const defaultValue = 'hsl(49, 100%, 58%)';
